@@ -67,7 +67,7 @@ This lab has exercises on:
 * Secure Windows Server
 * Enable Azure Arc on an on-premises virtual machine so it can be managed from Azure
 
-This lab is available as GitHub pages [here](https://jonathan-vella.github.io/Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure)
+This lab is available as GitHub pages [here](https://jonathan-vella.github.io/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure)
 
 
 ## Prerequisites
