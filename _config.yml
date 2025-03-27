@@ -5,8 +5,8 @@ theme: just-the-docs
 # url: https://jonathan-vella.github.io/Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure//
 
 aux_links:
-  "TechExcel: Securely migrate Windows Server and SQL Server workloads to Azure": 
-    - "https://github.com/microsoft/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure"
+  "Securely migrate Windows Server and SQL Server workloads to Azure": 
+    - "https://github.com/jonathan-vella/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure"
 callouts_level: quiet # or loud
 callouts:
   highlight:
