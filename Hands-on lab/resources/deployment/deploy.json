@@ -11,7 +11,7 @@
   "parameters": {
     "deploymentLocation": {
       "type": "string",
-      "defaultValue": "northcentralus",
+      "defaultValue": "swedencentral",
       "metadata": {
         "description": "The location were all resources are created."
       }
@@ -78,7 +78,7 @@
     "sqlmiStorageName": "[format('{0}sqlmistor', variables('resourceNameBase'))]",
     "onpremSQLVMNamePrefix": "[format('{0}sql-', variables('onpremNamePrefix'))]",
     "onpremHyperVHostVMNamePrefix": "[format('{0}hyperv-', variables('onpremNamePrefix'))]",
-    "GitHubScriptRepo": "microsoft/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure",
+    "GitHubScriptRepo": "jonathan-vella/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure",
     "GitHubScriptRepoBranch": "main",
     "GitHubScriptRepoBranchURL": "[format('https://raw.githubusercontent.com/{0}/{1}/Hands-on lab/resources/deployment/', variables('GitHubScriptRepo'), variables('GitHubScriptRepoBranch'))]",
     "HyperVHostConfigArchiveFileName": "create-vm.zip",

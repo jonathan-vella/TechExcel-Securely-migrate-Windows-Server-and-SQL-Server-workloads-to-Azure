@@ -35,7 +35,7 @@ Configuration Main
                 cd "C:\git"
 
                 git lfs install --skip-smudge
-                git clone --quiet --single-branch "https://github.com/microsoft/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure.git"
+                git clone --quiet --single-branch "https://github.com/jonathan-vella/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure.git"
                 cd "C:\git\TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure\"
                 git pull
                 git lfs pull

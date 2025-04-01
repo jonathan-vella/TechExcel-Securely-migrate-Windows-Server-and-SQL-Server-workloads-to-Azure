@@ -4,7 +4,7 @@
 var resourceNameBase = 'tailspin${take(uniqueString(resourceGroup().id), 7)}'
 
 @description('The location were all resources are created.')
-param deploymentLocation string = 'northcentralus'
+param deploymentLocation string = 'swedencentral'
 
 @description('The Id of the Azure AD User.')
 param azureAdUserId string
@@ -48,7 +48,7 @@ var sqlmiStorageName = '${resourceNameBase}sqlmistor'
 var onpremSQLVMNamePrefix = '${onpremNamePrefix}sql-'
 var onpremHyperVHostVMNamePrefix = '${onpremNamePrefix}hyperv-'
 
-var GitHubScriptRepo = 'microsoft/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure'
+var GitHubScriptRepo = 'jonathan-vella/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure'
 var GitHubScriptRepoBranch = 'main'
 var GitHubScriptRepoBranchURL = 'https://raw.githubusercontent.com/${GitHubScriptRepo}/${GitHubScriptRepoBranch}/Hands-on lab/resources/deployment/'
 
